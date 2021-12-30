@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service | Virtual Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="branding">
+                <h1>KAYTECH<span class="highlight">iT</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="service.html">Service</a></li>
+                </ul>          
+        </nav>
+        </div>
+    </header>
+
+    <section id="newsletter">
+        <div class="container" id="newsletter-flex">
+        <h1>Subscribe to our newsletter</h1>
+        <form>
+            <div id="errorMsg"></div>
+            <input id="email" type="email" placeholder="Enter email">
+            <button id="btn" type="submit" class="btn">Subscribe</button>
+        </form>
+    </div>
+    </section>
+
+    <section id="service-main">
+        <div class="container">
+            <article id="main-column">
+                <h1>Service</h1>
+                <ul id="services-list">
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </p>
+                        <p>Pricing: $250 per month</p>
+                    </li>
+                    <li>
+                        <h3>Website Maintainance</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </p>
+                        <p>Pricing: $1,000 - $3,000</p>
+
+                    </li>
+                    <li>
+                        <h3>Website Hosting</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        </p>
+                        <p>Pricing: $25 per month</p>
+                    </li>
+                </ul>
+                
+                </div>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark dark-quote">
+                    <h3>Get a Quote</h3>
+                    <form class="quote" action="">
+                        <div id="quoteMsg"></div>
+                        <div>                       
+                            <label for="name">Name</label> <br>
+                            <input id="name1" type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label> <br>
+                            <input id="emailMsg" type="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <label for="message">Message</label> <br>
+                            <textarea name="" id="textarea" cols="25" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" id="btn2" class="form-btn">Send</button>
+                        
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p>KaytechiT Web Solution, Copyright &copy; 2021  </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
